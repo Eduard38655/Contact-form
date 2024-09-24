@@ -11,7 +11,7 @@ let request = document.getElementById("Request");
 let reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 function ValidateData() {
-  let valid = true; // Inicializamos 'valid' como true
+  let valid = true;  
 
   inputs.forEach((element) => {
     switch (element.id) {
